@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #eeeeee;
+  }
+  
+  header {
+    background: #333;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  
+  nav {
+    background: #111;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
+  main {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  main .productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  main .productos .prod {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    background: #ccc;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  main .productos .prod img {
+    width: 100%;
+  }
+  
+  main .productos .prod button {
+    background: #333;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+    font-size: 0.8em;
+  }
+  
+  footer {
+    background: #111;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
